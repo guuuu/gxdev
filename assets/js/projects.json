@@ -1,0 +1,244 @@
+{
+    "front_page": {
+        "intro": {
+            "pt": "Sou um programdor de&nbsp;<span id='age'>0</span>&nbsp;anos que sabe programar com&nbsp;<span  data-type='lang' data-which='c' id='cs'>C#</span>,&nbsp; <span  data-type='lang' data-which='py' id='py'>Python</span>,&nbsp;<span  data-type='lang' data-which='node' id='node'>NodeJs</span>,&nbsp;<span  data-type='lang' data-which='js' id='js'>HTML/CSS/JS</span>.",
+            "en": "I'm a&nbsp;<span id='age'>0</span>&nbsp;years old developer who knows how to code with&nbsp;<span  data-type='lang' data-which='c' id='cs'>C#</span>,&nbsp; <span  data-type='lang' data-which='py' id='py'>Python</span>,&nbsp;<span  data-type='lang' data-which='node' id='node'>NodeJs</span>,&nbsp;<span  data-type='lang' data-which='js' id='js'>HTML/CSS/JS</span>."
+        }
+    },
+    "topics":{
+        "about": {
+            "pt": "Sobre mim",
+            "en": "About me"
+        },
+        "wil": {
+            "pt": "A aprender",
+            "en": "To learn"
+        },
+        "proj": {
+            "pt": "Os meus projetos",
+            "en": "My projects"
+        }
+    },
+    "details":{
+        "text": {
+            "pt": "(mais detalhes)",
+            "en": "(show more)"
+        },
+        "basic":{
+            "title": {
+                "pt": "Conhecimentos básicos",
+                "en": "Basic knowledge"
+            },
+            "content": [
+                "<p>SQL</p>",
+                "<p>ASP.NET</p>",
+                "<p>Linux / bash</p>",
+                "<p>Github</p>",
+                "<p>Microsoft Access</p>"
+            ]
+        },
+        "conf":{
+            "title": {
+                "pt": "Confortável",
+                "en": "Comfortable"
+            },
+            "content": [
+                "<p>C#</p>",
+                "<p>Python</p>",
+                "<p>JavaScript</p>",
+                "<p>NodeJs</p>",
+                "<p>Microsoft Word</p>",
+                "<p>Microsoft Excel</p>"
+                
+            ]
+        },
+        "advanced":{
+            "title": {
+                "pt": "Domínio",
+                "en": "Dominating"
+            },
+            "content": [
+
+            ]
+        },
+        "holder": {
+            "pt": "Por enquanto esta secção está vazia. Porquê? O CTeSP (concluido) em Tecnologias e Programação de Sistemas de Informação e a licenciatura (atual) em Tecnologias de Informação, Web e Multimédia fornecem diversos conhecimentos em várias tecnologias no entanto, em nenhuma das alturas é aprofundada uma tecnologia / linguagem de programação específica. Tendo isto em conta, quando obtiver mais expriência no mercado de trabalho irei colocar aqui as tecnologias em que sinto que as consigo dominar.",
+            "en": "For now this section is empty. Why? The CTeSP (done) in \"Tecnologias e Programação de Sistemas de Informação\" and the graduation (current) in \"Tecnologias de Informação, Web e Multimédia\" they give knowledge in multiple technologies but there's not a time where we get deep into a specific one. So, I will fill this section with technologies I feel I can dominate, once I get more expirience in the market."
+        }
+    },
+    "working": {
+        "pt": "O último projeto em que eu estive a trabalhar foi&nbsp;<a href=''><span id='git'></span></a>.",
+        "en": "I was last seen working on&nbsp;<a href=''><span id='git'></span></a>."
+    },
+    "project_names":[
+        {"name": "Marcha Dinâmica", "id": "md"},
+        {"name": "Youtube to Spotify", "id": "ytsp"},
+        {"name": "Timberman", "id": "timb"},
+        {"name": "Folder Organizer", "id": "fo"},
+        {"name": "MVTI encryptor", "id": "mvti"},
+        {"name": "MD Dashboard", "id": "mdd"},
+        {"name": "Digital profile", "id": "dp"},
+        {"name": "Random number picker", "id": "rng"}
+    ],
+    "to_learn":{
+        "ts": {
+            "pt": "A meu ver nos dias que correm TypeScript é extramamente útil e cada vez mais está a ser adotada pelos desenvolvedores graças ao seu estilo de tipagem e não só, daí ser um dos meus interesses aprender.",
+            "en": "On my view TypeScript is super usefull and each day that goes by it's getting even more attention from developers, mainly thanks to it's typing style but there's more to it so i think it would be usefull for me to learn it."
+        },
+        "sol":{
+            "pt": "Solidity é usado para criar e implementar contratos digitais em plataformas de blockchain. Uma vez que estas plataformas estão cada vez mais presentes nas nossas vidas seria uma vantagem aprender algo nesta área.",
+            "en": "Solidity it's used to create and implement smart contracts on blockchain platforms. Since blockchain platforms are more and more present on our lives it would be a advantage to learn something on this area."
+        },
+        "c": {
+            "pt": "C é a linguagem que estou a aprender na faculdade e fora isso é uma linguagem que eu quero ter mais conhecimento já que até ao momento apenas tenho conhecimento de linguagens de alto nivel.",
+            "en": "C is the laguage i'm currently learning on college and beside that it's a language i had interest in since I only know high level languages."
+        }
+    },
+    "projects_details": {
+        "title": {
+            "pt": "Os meus projetos",
+            "en": "My projects"
+        },
+        "list": [        
+            {
+                "id": "dp",
+                "name": "Digital Profile",
+                "description": {
+                    "pt": "<p>É a minha página pessoal, onde eu falo um pouco sobre os projetos que criei e sobre as linguagens de programação com que me sinto mais confortavel a usar.</p>",
+                    "en": "<p>It's my personal page, where I talk about the projects i've created and what programming languages I feel the most confortable using.</p>"
+                },
+                "url": "https://guuuu.github.io/gxdev",
+                "source": "https://github.com/guuuu/gxdev",
+                "logo": "assets/images/gx.png",
+                "technologies": [
+                    "HTML/CSS/JS",
+                    "JQuery"
+                ]                        
+            },
+            {
+                "id": "rng",
+                "name": "Random number picker",
+                "description": {
+                    "pt": "<p>É o projeto mais simples que eu desenvolvi e está online, o objetivo é simples, o utilizador insere dados, e irá ser escolhido um de forma aleatória.</p>",
+                    "en": "<p>It's the simplest project that I've developed and it's online, it has a simple objective, the user inserts some values, and one is choosen randomly.</p>"
+                },
+                "url": "https://guuuu.github.io/rng",
+                "source": "https://github.com/guuuu/rng",
+                "logo": "assets/images/rng.png",
+                "technologies": [
+                    "HTML/CSS/JS",
+                    "JQuery"
+                ]                        
+            },
+            {
+                "id": "timb",
+                "name": "Timberman (steam)",
+                "description": {
+                    "pt": "<p>Timberman é um jogo que existe para telemovel e para computador, o objetivo é simples, cortar a árvore até o personagem ter um ramo diretamente em cima dele do qual se tem que desviar, e o tempo para cortar reduz conforme o jogo avança, a forma como este script funciona é: a arvore principal é rodeada por uma borda preta, exceto quando existe um ramo, ou seja, o script lê uma posição especifica do ecrã, e quando a cor não é preta, o personagem muda de lado.</p>",
+                    "en": "<p>Timberman is a game for mobile and PC, it has a simple objective, chop the tree until the character has a tree branch above him and he needs to dodge the tree branch, and as the game goes on, there's less and less time to chop the tree, the way this script works is: the main tree is wrapped in a black border, so, the script reads the pixels of a specific position in the screen, and when the color is not black, the character changes sides.</p>"
+                },
+                "url": null,
+                "source": "https://github.com/guuuu/Androind-TimberMan",
+                "logo": "assets/images/timber.png",
+                "technologies": [
+                    "Python"
+                ]                    
+            },
+            {
+                "id": "fo",
+                "name": "Organize Folders",
+                "description": {
+                    "pt": "<p>Organize folders é o primeiro projeto onde eu misturei 2 linguagens de programação, C# e Python, o nome da aplicação é intuitivo, o utilizador utiliza o GUI para definir que extensões pretende organizar, para que pasta pretende que vão, e se existe alguma exceção de ficheiro a nao ser movido, o GUI está feito com C# e a parte de mover criar, renomear e etc está feito com Python. A forma como o utilizador pode organizar uma pasta é, após definir as suas preferencias de extensões com o GUI, utilizar a opção no menu de contexto dentro de uma pasta (Organizar pasta)</p>",
+                    "en": "<p>Organize folders is the first project where i mixed 2 programming languages, C# and Python, the name of the app is self explanatory, the user uses the GUI to define what extensions should be organized, how the folder should be called and if there's any file exceptions, the GUI is made with C# and the part to create, rename, move and etc is made with Python. The way the user can organize a folder, is after setting up his extension preferences, using the option in the context menu inside a folder (Organizar pasta)</p>"
+                },
+                "url": null,
+                "source": "https://github.com/guuuu/OrganizeFolders",
+                "logo": "assets/images/organize.png",
+                "technologies": [
+                    "C#",
+                    "Python"
+                ]                    
+            },
+            {
+                "id": "md",
+                "name": "Marcha Dinâmica",
+                "description": {
+                    "pt": "<p>Marcha Dinâmica é uma loja online que vende diversos produtos tipicamente portugueses. Os produtos estão armazenados em uma base de dados, e o responsável da loja consegue atualizar/inserir/remover os produtos através de uma dashboard também criada por mim.</p>",
+                    "en": "<p>Marcha Dinâmica it's an online shop with a variety of portuguese products. The products are stored in a data base, and the owner of the shop is able to updated/remove/insert new products through a dashboard createad also by me.</p>"
+                },
+                "url": "https://marchadinamica.com/",
+                "source": null,
+                "logo": "assets/images/md.png",
+                "technologies": [
+                    "HTML/CSS/JS",
+                    "NodeJs",
+                    "JQuery",
+                    "C#",
+                    "Python"
+                ]
+            },
+            {
+                "id": "ytsp",
+                "name": "Youtube to Spotify",
+                "description": {
+                    "pt": "<p>Youtube to spotify surgiu apartir de uma necessidade minha, converter uma lista de 400 músicas guardada no youtube para o spotfiy, este projeto ajudou me a melhorar o meu conhecimento sobre API's, e aprender a como usar recursividade, é o projeto que eu mais me orgulho, embora não seja perfeito.</p>",
+                    "en": "<p>I had the idea to create the app Youtube to spotify, because I needed to convert a 400 musics youtube playlist to a spotify playlist, with this project I was able to improve my knowledge about API'S and how to use recursion, it's the project i'm more proud of doing, even tho it's not perfect.</p>"
+                },
+                "url": "https://yt-sp.herokuapp.com/",
+                "source": "https://github.com/guuuu/YoutubeToSpotify",
+                "logo": "assets/images/yt.png",
+                "technologies": [
+                    "HTML/CSS/JS",
+                    "NodeJs",
+                    "JQuery"
+                ]
+            }        
+        ]
+    },
+    "languages": {
+        "node": {
+            "intro": {
+                "pt": "<p>Atualmente tenho 2 projetos online feitos com Node.JS por conta própria, sem estarem relacionados com projetos universitários.</p>",
+                "en": "<p>I have currently 2 projects online made with Node.JS totally on my own, not related to school projects.</p>"
+            }
+        },
+        "py":{
+            "intro": {
+                "pt": "<p>Eu aprendi python de forma auto didata, e atualmente tenho alguns projetos principalmente para tentar automatizar tarefas, ou para fazer web scrappers.</p>",
+                "en": "<p>I learned python by my self, and to this day I have made some projects, mainly to try and automate things, or to make web scrappers.</p>"
+            }
+        },
+        "c": {
+            "intro": {
+                "pt": "<p>No que toca a desenvolvimento de aplicações com GUI ou não, C# é a minha opção principal uma vez que é a linguagem na qual mais me sinto confortável a programar.</p>",
+                "en": "<p>When it comes to software developing envolving GUI or not, C# is my go to language, it's the language i feel most confortable with.</p>"
+            }
+        },
+        "js": {
+            "intro": {
+                "pt": "<p>HTML/CSS/JS é um conjunto de tecnologias com que me sinto confortável a usar, embora design não seja o meu ponto forte.</p>",
+                "en": "<p>HTML/CSS/JS is a group of technologies that I feel confortable with, even tho designing is not my favorite thing to do.</p>"
+            }               
+        }
+    },
+    "settings":{
+        "language":{
+            "pt": "Idioma",
+            "en": "Language"
+        }
+    },
+    "navbar":{
+        "pt": [
+            "Sobre mim",
+            "A aprender",
+            "Projetos",
+            "Interesses"
+        ],
+        "en": [
+            "About me",
+            "To learn",
+            "My projects",
+            "My interests"
+        ]
+    }
+}

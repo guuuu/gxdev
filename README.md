@@ -26,7 +26,7 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+Give a ⭐️ if you liked this project!
 
 ## 📝 License
 
@@ -34,4 +34,4 @@ Copyright © 2022 [Gustavo Nascimento](https://github.com/guuuu).<br />
 This project is [GNU GPLv3](https://github.com/guuuu/gxdev/blob/main/LICENSE) licensed.
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_"# gxdev" 
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
