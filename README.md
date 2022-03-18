@@ -11,13 +11,13 @@
 
 > This is my digital profile where i showcase some projects and i talk about what languages i know and use.
 
-### 🏠 [Homepage](www.gxdev.me)
+### 🏠 [Homepage](www.gxdev.pt)
 
 ## Author
 
 👤 **Gustavo Nascimento**
 
-* Website: www.gxdev.me
+* Website: www.gxdev.pt
 * Github: [@guuuu](https://github.com/guuuu)
 
 ## 🤝 Contributing
