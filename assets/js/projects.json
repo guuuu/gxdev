@@ -3,6 +3,10 @@
         "intro": {
             "pt": "Sou um programdor de&nbsp;<span id='age'>0</span>&nbsp;anos que sabe programar com&nbsp;<span  data-type='lang' data-which='c' id='cs'>C#</span>,&nbsp; <span  data-type='lang' data-which='py' id='py'>Python</span>,&nbsp;<span  data-type='lang' data-which='node' id='node'>NodeJs</span>,&nbsp;<span  data-type='lang' data-which='js' id='js'>HTML/CSS/JS</span>.",
             "en": "I'm a&nbsp;<span id='age'>0</span>&nbsp;years old developer who knows how to code with&nbsp;<span  data-type='lang' data-which='c' id='cs'>C#</span>,&nbsp; <span  data-type='lang' data-which='py' id='py'>Python</span>,&nbsp;<span  data-type='lang' data-which='node' id='node'>NodeJs</span>,&nbsp;<span  data-type='lang' data-which='js' id='js'>HTML/CSS/JS</span>."
+        },
+        "email":{
+            "pt": "Podem me contactar através deste email:&nbsp;<a href='mailto:gxdev28@gmail.com'>gxdev28@gmail.com</a>.",
+            "en": "You can contact me by this email:&nbsp;<a href='mailto:gxdev28@gmail.com'>gxdev28@gmail.com</a>."
         }
     },
     "topics":{
@@ -231,14 +235,12 @@
         "pt": [
             "Sobre mim",
             "A aprender",
-            "Projetos",
-            "Interesses"
+            "Projetos"
         ],
         "en": [
             "About me",
             "To learn",
-            "My projects",
-            "My interests"
+            "My projects"
         ]
     }
 }

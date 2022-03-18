@@ -121,7 +121,7 @@ $(".radio").click(function(){
 
 const load_data = () => {
     $(".loading").css("z-index", "10");
-    $("#details, #intro, #sol, #ts, #cl, #abt_title, #wil_title, #projects_title, #git_text, #more, #more_abt .col .title, #more_abt .col .content, #settings_popup .content .set .title, #proj_container, #age").empty()
+    $("#details, #intro, #sol, #ts, #cl, #abt_title, #wil_title, #projects_title, #git_text, #more, #more_abt .col .title, #more_abt .col .content, #settings_popup .content .set .title, #proj_container, #age, #mail").empty()
     last_span = null;
     $("#details").removeClass("show");
 
@@ -136,6 +136,7 @@ const load_data = () => {
             $("#wil_title").append($.parseHTML(d.topics.wil.pt));
             $("#projects_title").append($.parseHTML(d.topics.proj.pt));
             $("#git_text").append($.parseHTML(d.working.pt));
+            $("#mail").append($.parseHTML(d.front_page.email.pt));
             $("#more").append($.parseHTML(d.details.text.pt));
             $($("#more_abt .col .title")[0]).append($.parseHTML(d.details.basic.title.pt));
             $($("#more_abt .col .title")[1]).append($.parseHTML(d.details.conf.title.pt));
@@ -143,7 +144,7 @@ const load_data = () => {
             $($("#more_abt .col .content")[2]).append($.parseHTML(d.details.holder.pt));
             $("#settings_popup .content .set .title").append($.parseHTML(d.settings.language.pt));
             $.each(d.navbar.pt, (i, t) => { $($(".options .opt a")[i]).append($.parseHTML(t)); });
-            $("html, #intro, #sol, #ts, #cl, #abt_title, #wil_title, #projects_title, #git_text, #more, #more_abt .col .title, #more_abt .col .content, #settings_popup .content .set .title, #proj_container, #age").attr("lang", "pt");
+            $("html, #intro, #sol, #ts, #cl, #abt_title, #wil_title, #projects_title, #git_text, #more, #more_abt .col .title, #more_abt .col .content, #settings_popup .content .set .title, #proj_container, #age, #mail").attr("lang", "pt");
         }
         else{
             $("#intro").append($.parseHTML(d.front_page.intro.en));
@@ -154,6 +155,7 @@ const load_data = () => {
             $("#wil_title").append($.parseHTML(d.topics.wil.en));
             $("#projects_title").append($.parseHTML(d.topics.proj.en));
             $("#git_text").append($.parseHTML(d.working.en));
+            $("#mail").append($.parseHTML(d.front_page.email.en));
             $("#more").append($.parseHTML(d.details.text.en));
             $($("#more_abt .col .title")[0]).append($.parseHTML(d.details.basic.title.en));
             $($("#more_abt .col .title")[1]).append($.parseHTML(d.details.conf.title.en));
@@ -161,7 +163,7 @@ const load_data = () => {
             $($("#more_abt .col .content")[2]).append($.parseHTML(d.details.holder.en));
             $("#settings_popup .content .set .title").append($.parseHTML(d.settings.language.en));
             $.each(d.navbar.en, (i, t) => { $($(".options .opt a")[i]).append($.parseHTML(t)); });
-            $("html, #intro, #sol, #ts, #cl, #abt_title, #wil_title, #projects_title, #git_text, #more, #more_abt .col .title, #more_abt .col .content, #settings_popup .content .set .title, #proj_container, #age").attr("lang", "en");
+            $("html, #intro, #sol, #ts, #cl, #abt_title, #wil_title, #projects_title, #git_text, #more, #more_abt .col .title, #more_abt .col .content, #settings_popup .content .set .title, #proj_container, #age, #mail").attr("lang", "en");
         }
 
         const projects = () => {
