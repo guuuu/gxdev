@@ -175,7 +175,7 @@ h2{
 
 main article#abt .cont p{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,6 +292,7 @@ main article#abt .row .col{
 main article#abt .row .col.expand{
     height: 780px;
     visibility: visible;
+    margin-top: 20px;
 }
 
 main article#abt .row .col h3{
@@ -306,6 +307,11 @@ main article#abt .row .col .content{
     height: 92%;
     padding: 30px;
     font-size: 20px;
+    overflow-y: auto;
+}
+
+main article#abt .row .col .content p{
+    width: 100%;
 }
 
 main article#abt .details{
@@ -369,7 +375,7 @@ main article#wil .row .sqwrapper {
     background-color: transparent;
     border-radius: 100%;
     perspective: 1000px;
-    margin: 100px 100px;
+    margin: 30px 25px;
     height: 280px;
     width: 280px;
     min-height: 280px;
@@ -784,73 +790,80 @@ main article#projects .projs .row .project .techs{
 }
 
 @media only screen and (max-width: 800px) {
-    .options{
+    .options {
         position: fixed;
-       margin-top: -1700px;
-       flex-direction: column;
-       /* position: absolute; */
-       height: 100%;
-       width: 100%;
-       right: 0;
-       justify-content: center;
-       background-color: var(--background);
-       z-index: 3;
-   }
+        margin-top: -1700px;
+        flex-direction: column;
+        /* position: absolute; */
+        height: 100%;
+        width: 100%;
+        right: 0;
+        justify-content: center;
+        background-color: var(--background);
+        z-index: 3;
+    }
 
-   nav .menu{
-       z-index: 4;
-       margin-top: 0px;
-       transition: all var(--delay) ease;
-       -o-transition: all var(--delay) ease;
-       -moz-transition: all var(--delay) ease;
-   }
+    nav .menu {
+        z-index: 4;
+        margin-top: 0px;
+        transition: all var(--delay) ease;
+        -o-transition: all var(--delay) ease;
+        -moz-transition: all var(--delay) ease;
+    }
 
-   .options .opt{
-       padding: 15px;
-       margin-right: -700px;
-       transition: all var(--delay) ease;
-       -o-transition: all var(--delay) ease;
-       -moz-transition: all var(--delay) ease;
-   }
+    .options .opt {
+        padding: 15px;
+        margin-right: -700px;
+        transition: all var(--delay) ease;
+        -o-transition: all var(--delay) ease;
+        -moz-transition: all var(--delay) ease;
+    }
 
-   .slide{
-       margin-right: 0px !important;
-       transition: all var(--delay) ease;
-       -o-transition: all var(--delay) ease;
-       -moz-transition: all var(--delay) ease;
-   }
+    .slide {
+        margin-right: 0px !important;
+        transition: all var(--delay) ease;
+        -o-transition: all var(--delay) ease;
+        -moz-transition: all var(--delay) ease;
+    }
 
-   main article#abt{
-       margin-top: 0px;
-   }
+    main article#abt {
+        margin-top: 0px;
+    }
 
-   #logo{ visibility: hidden; }
+    #logo {
+        visibility: hidden;
+    }
 
-   main article#abt .cont{
-       width: 100%;
-       left: 0;
-   }
+    main article#abt .cont {
+        width: 100%;
+        left: 0;
+    }
 
-   main article#abt .row .col{
-       margin-right: 0px;
-       margin-top: 70px;
-   }
+    main article#abt .row .col {
+        margin-right: 0px;
+        margin-top: 70px;
+    }
 
-   section#art{
-       height: 200px;
-   }
+    section#art {
+        height: 200px;
+    }
 
-   #settings_popup{
-       width: 100%;
-   }
+    #settings_popup {
+        width: 100%;
+    }
 
-   main article#abt .details.show{
-       width: 98%;
-       height: 400px;
-       margin: 0px 1%;
-   }
+    main article#abt .details.show {
+        width: 98%;
+        height: 400px;
+        margin: 0px 1%;
+    }
+
+    main article#wil { margin-top: 0px; }
+
+    main article#abt .row .col{
+        margin-top: 20px;
+    }
 }
-
 
 @media only screen and (max-width: 1000px) {
     main article#projects .projs .row{

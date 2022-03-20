@@ -66,24 +66,14 @@
             ]
         },
         "holder": {
-            "pt": "Por enquanto esta secção está vazia. Porquê? O CTeSP (concluido) em Tecnologias e Programação de Sistemas de Informação e a licenciatura (atual) em Tecnologias de Informação, Web e Multimédia fornecem diversos conhecimentos em várias tecnologias no entanto, em nenhuma das alturas é aprofundada uma tecnologia / linguagem de programação específica. Tendo isto em conta, quando obtiver mais expriência no mercado de trabalho irei colocar aqui as tecnologias em que sinto que as consigo dominar.",
-            "en": "For now this section is empty. Why? The CTeSP (done) in \"Tecnologias e Programação de Sistemas de Informação\" and the graduation (current) in \"Tecnologias de Informação, Web e Multimédia\" they give knowledge in multiple technologies but there's not a time where we get deep into a specific one. So, I will fill this section with technologies I feel I can dominate, once I get more expirience in the market."
+            "pt": "<p>Por enquanto esta secção está vazia. Porquê? O CTeSP (concluido no IPMAIA) em Tecnologias e Programação de Sistemas de Informação e a licenciatura (atual, também no IPMAIA) em Tecnologias de Informação, Web e Multimédia fornecem diversos conhecimentos em várias tecnologias no entanto, em nenhuma das alturas é aprofundada uma tecnologia / linguagem de programação específica. Tendo isto em conta, quando obtiver mais expriência no mercado de trabalho irei colocar aqui as tecnologias em que sinto que as consigo dominar.</p>",
+            "en": "<p>For now this section is empty. Why? The CTeSP (done at IPMAIA) in \"Tecnologias e Programação de Sistemas de Informação\" and the graduation (current at IPMAIA too) in \"Tecnologias de Informação, Web e Multimédia\" they give knowledge in multiple technologies but there's not a time where we get deep into a specific one. So, I will fill this section with technologies I feel I can dominate, once I get more expirience in the market.</p>"
         }
     },
     "working": {
         "pt": "O último projeto em que eu estive a trabalhar foi&nbsp;<a href=''><span id='git'></span></a>.",
         "en": "I was last seen working on&nbsp;<a href=''><span id='git'></span></a>."
     },
-    "project_names":[
-        {"name": "Marcha Dinâmica", "id": "md"},
-        {"name": "Youtube to Spotify", "id": "ytsp"},
-        {"name": "Timberman", "id": "timb"},
-        {"name": "Folder Organizer", "id": "fo"},
-        {"name": "MVTI encryptor", "id": "mvti"},
-        {"name": "MD Dashboard", "id": "mdd"},
-        {"name": "Digital profile", "id": "dp"},
-        {"name": "Random number picker", "id": "rng"}
-    ],
     "to_learn":{
         "ts": {
             "pt": "A meu ver nos dias que correm TypeScript é extramamente útil e cada vez mais está a ser adotada pelos desenvolvedores graças ao seu estilo de tipagem e não só, daí ser um dos meus interesses aprender.",
@@ -96,7 +86,11 @@
         "c": {
             "pt": "C é a linguagem que estou a aprender na faculdade e fora isso é uma linguagem que eu quero ter mais conhecimento já que até ao momento apenas tenho conhecimento de linguagens de alto nivel.",
             "en": "C is the laguage i'm currently learning on college and beside that it's a language i had interest in since I only know high level languages."
-        }
+        },
+        "reactjs": {
+            "pt": "Eu quero aprender React e React native para poder desenvolver interfaces de uma maneira mais fácil e melhor e expandir os meus conhecimentos para poder também desenvolver aplicações para mobile.",
+            "en": "React and React native are frameworks that I want to learn so I can develop interfaces in a better and easier way and also expand my knowledge to be able to develop mobile apps."
+        }        
     },
     "projects_details": {
         "title": {

@@ -9,15 +9,16 @@
   </a>
 </p>
 
-> This is my digital profile where i showcase some projects and i talk about what languages i know and use.
+> This is my digital profile where i showcase some projects and i talk about what coding languages i know and use.
+> Currently i'm hosting this website on github pages and using my custom domain.
 
-### 🏠 [Homepage](www.gxdev.pt)
+### 🏠 [Homepage](https://guuuu.github.io/gxdev)
 
 ## Author
 
 👤 **Gustavo Nascimento**
 
-* Website: www.gxdev.pt
+* Website: https://guuuu.github.io/gxdev
 * Github: [@guuuu](https://github.com/guuuu)
 
 ## 🤝 Contributing
