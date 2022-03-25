@@ -97,51 +97,37 @@
             "pt": "Os meus projetos",
             "en": "My projects"
         },
-        "list": [        
+        "list": [
             {
-                "id": "dp",
-                "name": "Digital Profile",
+                "id": "gxsh",
+                "name": "gxsh - Simple URL shortner",
                 "description": {
-                    "pt": "<p>É a minha página pessoal, onde eu falo um pouco sobre os projetos que criei e sobre as linguagens de programação com que me sinto mais confortavel a usar.</p>",
-                    "en": "<p>It's my personal page, where I talk about the projects i've created and what programming languages I feel the most confortable using.</p>"
+                    "pt": "<p>Um website para encortar URL's. Foi um dos projetos que mais gostei de fazer visto que usei várias <em>libraries</em> e foi a primeira app onde utilizei um limitador de <em>requests</em> e até mesmo uma funcionalidade para banir IP's que abusem dos pedidos</p>",
+                    "en": "<p>A website to shorten URL's. It's one of the projects that I most enjoyed doing since I learned how to use a ton of different libraries and it's the first app I did that limits the requests and has a feature to ban IP's that abuse the requests.</p>"
                 },
-                "url": "https://guuuu.github.io/gxdev",
-                "source": "https://github.com/guuuu/gxdev",
-                "logo": "assets/images/gx.png",
+                "url": "https://gxsh.xyz",
+                "source": "https://github.com/guuuu/url-shortner",
                 "technologies": [
                     "HTML/CSS/JS",
+                    "NodeJs",
                     "JQuery"
-                ]                        
-            },
+                ]
+            },                  
             {
-                "id": "rng",
-                "name": "Random number picker",
+                "id": "ytsp",
+                "name": "Youtube to Spotify",
                 "description": {
-                    "pt": "<p>É o projeto mais simples que eu desenvolvi e está online, o objetivo é simples, o utilizador insere dados, e irá ser escolhido um de forma aleatória.</p>",
-                    "en": "<p>It's the simplest project that I've developed and it's online, it has a simple objective, the user inserts some values, and one is choosen randomly.</p>"
+                    "pt": "<p>Youtube to spotify surgiu apartir de uma necessidade minha, converter uma lista de 400 músicas guardada no youtube para o spotfiy, este projeto ajudou me a melhorar o meu conhecimento sobre API's, e aprender a como usar recursividade, é o projeto que eu mais me orgulho, embora não seja perfeito.</p>",
+                    "en": "<p>I had the idea to create the app Youtube to spotify, because I needed to convert a 400 musics youtube playlist to a spotify playlist, with this project I was able to improve my knowledge about API'S and how to use recursion, it's the project i'm more proud of doing, even tho it's not perfect.</p>"
                 },
-                "url": "https://guuuu.github.io/rng",
-                "source": "https://github.com/guuuu/rng",
-                "logo": "assets/images/rng.png",
+                "url": "https://yt-sp.herokuapp.com/",
+                "source": "https://github.com/guuuu/YoutubeToSpotify",
                 "technologies": [
                     "HTML/CSS/JS",
+                    "NodeJs",
                     "JQuery"
-                ]                        
-            },
-            {
-                "id": "timb",
-                "name": "Timberman (steam)",
-                "description": {
-                    "pt": "<p>Timberman é um jogo que existe para telemovel e para computador, o objetivo é simples, cortar a árvore até o personagem ter um ramo diretamente em cima dele do qual se tem que desviar, e o tempo para cortar reduz conforme o jogo avança, a forma como este script funciona é: a arvore principal é rodeada por uma borda preta, exceto quando existe um ramo, ou seja, o script lê uma posição especifica do ecrã, e quando a cor não é preta, o personagem muda de lado.</p>",
-                    "en": "<p>Timberman is a game for mobile and PC, it has a simple objective, chop the tree until the character has a tree branch above him and he needs to dodge the tree branch, and as the game goes on, there's less and less time to chop the tree, the way this script works is: the main tree is wrapped in a black border, so, the script reads the pixels of a specific position in the screen, and when the color is not black, the character changes sides.</p>"
-                },
-                "url": null,
-                "source": "https://github.com/guuuu/Androind-TimberMan",
-                "logo": "assets/images/timber.png",
-                "technologies": [
-                    "Python"
-                ]                    
-            },
+                ]
+            },               
             {
                 "id": "fo",
                 "name": "Organize Folders",
@@ -151,7 +137,6 @@
                 },
                 "url": null,
                 "source": "https://github.com/guuuu/OrganizeFolders",
-                "logo": "assets/images/organize.png",
                 "technologies": [
                     "C#",
                     "Python"
@@ -166,7 +151,6 @@
                 },
                 "url": "https://marchadinamica.com/",
                 "source": null,
-                "logo": "assets/images/md.png",
                 "technologies": [
                     "HTML/CSS/JS",
                     "NodeJs",
@@ -174,23 +158,48 @@
                     "C#",
                     "Python"
                 ]
-            },
+            },            
             {
-                "id": "ytsp",
-                "name": "Youtube to Spotify",
+                "id": "dp",
+                "name": "Digital Profile",
                 "description": {
-                    "pt": "<p>Youtube to spotify surgiu apartir de uma necessidade minha, converter uma lista de 400 músicas guardada no youtube para o spotfiy, este projeto ajudou me a melhorar o meu conhecimento sobre API's, e aprender a como usar recursividade, é o projeto que eu mais me orgulho, embora não seja perfeito.</p>",
-                    "en": "<p>I had the idea to create the app Youtube to spotify, because I needed to convert a 400 musics youtube playlist to a spotify playlist, with this project I was able to improve my knowledge about API'S and how to use recursion, it's the project i'm more proud of doing, even tho it's not perfect.</p>"
+                    "pt": "<p>É a minha página pessoal, onde eu falo um pouco sobre os projetos que criei e sobre as linguagens de programação com que me sinto mais confortavel a usar.</p>",
+                    "en": "<p>It's my personal page, where I talk about the projects i've created and what programming languages I feel the most confortable using.</p>"
                 },
-                "url": "https://yt-sp.herokuapp.com/",
-                "source": "https://github.com/guuuu/YoutubeToSpotify",
-                "logo": "assets/images/yt.png",
+                "url": "https://guuuu.github.io/gxdev",
+                "source": "https://github.com/guuuu/gxdev",
                 "technologies": [
                     "HTML/CSS/JS",
-                    "NodeJs",
                     "JQuery"
-                ]
-            }        
+                ]                        
+            },
+            {
+                "id": "rng",
+                "name": "Random number picker",
+                "description": {
+                    "pt": "<p>É o projeto mais simples que eu desenvolvi e está online, o objetivo é simples, o utilizador insere dados, e irá ser escolhido um de forma aleatória.</p>",
+                    "en": "<p>It's the simplest project that I've developed and it's online, it has a simple objective, the user inserts some values, and one is choosen randomly.</p>"
+                },
+                "url": "https://guuuu.github.io/rng",
+                "source": "https://github.com/guuuu/rng",
+                "technologies": [
+                    "HTML/CSS/JS",
+                    "JQuery"
+                ]                        
+            },
+            {
+                "id": "timb",
+                "name": "Timberman (steam)",
+                "description": {
+                    "pt": "<p>Timberman é um jogo que existe para telemovel e para computador, o objetivo é simples, cortar a árvore até o personagem ter um ramo diretamente em cima dele do qual se tem que desviar, e o tempo para cortar reduz conforme o jogo avança, a forma como este script funciona é: a arvore principal é rodeada por uma borda preta, exceto quando existe um ramo, ou seja, o script lê uma posição especifica do ecrã, e quando a cor não é preta, o personagem muda de lado.</p>",
+                    "en": "<p>Timberman is a game for mobile and PC, it has a simple objective, chop the tree until the character has a tree branch above him and he needs to dodge the tree branch, and as the game goes on, there's less and less time to chop the tree, the way this script works is: the main tree is wrapped in a black border, so, the script reads the pixels of a specific position in the screen, and when the color is not black, the character changes sides.</p>"
+                },
+                "url": null,
+                "source": "https://github.com/guuuu/Androind-TimberMan",
+                "technologies": [
+                    "Python"
+                ]                    
+            }      
         ]
     },
     "languages": {
