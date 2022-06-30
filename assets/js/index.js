@@ -57,7 +57,7 @@ const observer = new IntersectionObserver(function(entries) {
 }, { root: document.documentElement });
 
 $("#menu").click(() => {
-    if(!menu_open){        
+    if(!menu_open){
         $("body").css("overflow-y", "hidden");
         $(".options").addClass("dropdown");
         $.each($(".opt"), (i, el) => {
@@ -228,7 +228,7 @@ const load_data = () => {
 
         const age = () => {
             if($("#age").length){
-                $("#age").text(String(dayjs().diff("2000-06-27", "year", true)).substring(0, 12)); 
+                $("#age").text(String(dayjs().diff("2000-07-28", "year", true)).substring(0, 12)); 
             }
             setTimeout(() => ( age() ), 50);
         }
