@@ -36,6 +36,10 @@
             "content": [
                 "<p>SQL</p>",
                 "<p>ASP.NET</p>",
+                "<p>C</p>",
+                "<p>TypeScript</p>",
+                "<p>React</p>",
+                "<p>TailwindCSS</p>",
                 "<p>Linux / bash</p>",
                 "<p>Github</p>",
                 "<p>Microsoft Access</p>"
@@ -53,7 +57,6 @@
                 "<p>NodeJs</p>",
                 "<p>Microsoft Word</p>",
                 "<p>Microsoft Excel</p>"
-                
             ]
         },
         "advanced":{
@@ -75,22 +78,18 @@
         "en": "I was last seen working on&nbsp;<a href=''><span id='git'></span></a>."
     },
     "to_learn":{
-        "ts": {
-            "pt": "A meu ver nos dias que correm TypeScript é extramamente útil e cada vez mais está a ser adotada pelos desenvolvedores graças ao seu estilo de tipagem e não só, daí ser um dos meus interesses aprender.",
-            "en": "On my view TypeScript is super usefull and each day that goes by it's getting even more attention from developers, mainly thanks to it's typing style but there's more to it so i think it would be usefull for me to learn it."
-        },
         "sol":{
             "pt": "Solidity é usado para criar e implementar contratos digitais em plataformas de blockchain. Uma vez que estas plataformas estão cada vez mais presentes nas nossas vidas seria uma vantagem aprender algo nesta área.",
             "en": "Solidity it's used to create and implement smart contracts on blockchain platforms. Since blockchain platforms are more and more present on our lives it would be a advantage to learn something on this area."
         },
-        "c": {
-            "pt": "C é a linguagem que estou a aprender na faculdade e fora isso é uma linguagem que eu quero ter mais conhecimento já que até ao momento apenas tenho conhecimento de linguagens de alto nivel.",
-            "en": "C is the laguage i'm currently learning on college and beside that it's a language i had interest in since I only know high level languages."
+        "rust": {
+            "pt": "Rust é uma das melhores opções no que toca a desenvolver servidores web, e, uma vez que eu pretendo focalizar-me em back-end, acho que seria uma mais valia aprender rust",
+            "en": "Rust is one of the best options when it comes to developing web servers, since I want to focus on back-end, I think it would be valuable for me to learn rust"
         },
-        "reactjs": {
-            "pt": "Eu quero aprender React e React native para poder desenvolver interfaces de uma maneira mais fácil e melhor e expandir os meus conhecimentos para poder também desenvolver aplicações para mobile.",
-            "en": "React and React native are frameworks that I want to learn so I can develop interfaces in a better and easier way and also expand my knowledge to be able to develop mobile apps."
-        }        
+        "firebase": {
+            "pt": "Firebase é um conjunto de serviços de hosting para qualquer tipo de app que eu acho que sera muito bom se aprendesse a trabalhar com a mesma, uma vez que me abriria várias portas no que toca ao desenvolvimento de apps mais complexas.",
+            "en": "Firebase is a group of hosting services for any app and I think it'll be really worth it for me to learn it since it will open alot of options for me to develop more complex apps."
+        }
     },
     "projects_details": {
         "title": {
@@ -98,6 +97,25 @@
             "en": "My projects"
         },
         "list": [
+            {
+                "id": "gxrc",
+                "name": "gxRC - League of legends rune changer",
+                "description": {
+                    "pt": "<p>Uma aplicação para os jogadores de league of legends poderem guardar as suas runas sem necessitarem de gastar os créditos do jogo nas páginas que têm esse objetivo.</p>",
+                    "en": "<p>An app for league of legends players to save their own runes without having to spend credits on the dedicated pages that have that objective in game.</p>"
+                },
+                "url": "https://github.com/guuuu/gxrc/releases/tag/v1.0.0",
+                "source": "https://github.com/guuuu/gxrc",
+                "technologies": [
+                    "HTML/CSS/JS",
+                    "React",
+                    "TypeScript",
+                    "TailwindCSS",
+                    "Electron",
+                    "NodeJs",
+                    "Webpack"
+                ]
+            },
             {
                 "id": "gxsh",
                 "name": "gxsh - Simple URL shortner",
@@ -112,7 +130,7 @@
                     "NodeJs",
                     "JQuery"
                 ]
-            },                  
+            },
             {
                 "id": "ytsp",
                 "name": "Youtube to Spotify",
@@ -127,7 +145,7 @@
                     "NodeJs",
                     "JQuery"
                 ]
-            },               
+            },
             {
                 "id": "fo",
                 "name": "Organize Folders",
@@ -205,8 +223,8 @@
     "languages": {
         "node": {
             "intro": {
-                "pt": "<p>Atualmente tenho 2 projetos online feitos com Node.JS por conta própria, sem estarem relacionados com projetos universitários.</p>",
-                "en": "<p>I have currently 2 projects online made with Node.JS totally on my own, not related to school projects.</p>"
+                "pt": "<p>Atualmente tenho 3 projetos online feitos com Node.JS por conta própria, sem estarem relacionados com projetos universitários.</p>",
+                "en": "<p>I have currently 3 projects online made with Node.JS totally on my own, not related to school projects.</p>"
             }
         },
         "py":{
